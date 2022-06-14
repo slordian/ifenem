@@ -7,19 +7,20 @@ div#barra-cima{
 }
 div#titulo{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background-color: rgb(219, 219, 219);
+    font-family: Verdana, Geneva, Tahoma;
 }
 div.assunto{
     background-color: rgb(231, 231, 231);
     width: 90%;
     margin: auto;
-    font-family: Verdana, sans-serif;
+    line-height: 24px;
 }
 .titulo{
     text-align: center;
+    transition-property: background-color;
 }
 .conteudo{
     margin-left: 20px;
@@ -32,3 +33,11 @@ div.assunto{
     text-indent: 40px;
     color:rgb(82, 82, 82);
 }
+#menu{
+    background-color: darkgreen;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
