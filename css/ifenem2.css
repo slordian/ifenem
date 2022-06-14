@@ -32,3 +32,6 @@ div.assunto{
     text-indent: 40px;
     color:rgb(82, 82, 82);
 }
+#dialogo{
+  list-style-type: none;
+}
