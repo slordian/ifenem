@@ -16,7 +16,8 @@ body{
 div.assunto{
     background-color: rgb(231, 231, 231);
     width: 90%;
-    margin: auto;
+    margin: auto;    
+    line-height: 24px;
 }
 .titulo{
     text-align: center;
@@ -35,10 +36,27 @@ div.assunto{
 #dialogo{
   list-style: none;
 }
-#menu{
+nav{
     background-color: darkgreen;
     padding: 5px;
-    text-align: center;
-    color: white;
+    color: white;    
+    display: flex;
+    justify-content:  center;
+    flex-wrap: wrap;
+}
+.nav{
     cursor: pointer;
+    margin-right: 8px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: white; 
+}
+#exerc-s:hover{
+    text-decoration: underline;
+}
+#videoaulas:hover{
+    text-decoration: underline;
 }

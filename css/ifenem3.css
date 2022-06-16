@@ -7,10 +7,11 @@ div#barra-cima{
 }
 div#titulo{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
+    font-family: Verdana, sans-serif;
     background-color: rgb(219, 219, 219);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div.assunto{
     background-color: rgb(231, 231, 231);
@@ -26,7 +27,7 @@ div.assunto{
     margin-right: 20px;
     text-indent: 40px
 }
-#re{
+.re{
     margin-left: 20px;
     margin-right: 20px;
     text-indent: 40px;
@@ -56,4 +57,3 @@ a:link{
 #videoaulas:hover{
     text-decoration: underline;
 }
-
