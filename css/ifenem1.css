@@ -46,14 +46,15 @@ nav{
     border-right: 1px solid white;
     padding-right: 10px;
 }
+.nav:hover{
+    text-decoration: underline;
+}
 a:link{
     text-decoration: none;
     color: white; 
 }
-#exerc-s:hover{
-    text-decoration: underline;
-}
-#videoaulas:hover{
-    text-decoration: underline;
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 
