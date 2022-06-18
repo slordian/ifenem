@@ -12,7 +12,7 @@ body{
     background-color: rgb(219, 219, 219);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div.assunto{
+div#assunto{
     background-color: rgb(231, 231, 231);
     width: 90%;
     margin: auto;
