@@ -27,6 +27,12 @@ div#assunto{
     margin-right: 20px;
     text-indent: 40px
 }
+#re{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 40px;
+    color:rgb(82, 82, 82);
+}
 .re{
     margin-left: 20px;
     margin-right: 20px;
