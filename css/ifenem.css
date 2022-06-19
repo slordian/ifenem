@@ -18,6 +18,7 @@ div#assunto{
     width: 70%;
     margin: auto;    
     line-height: 24px;
+    justify-content: center;
 }
 .titulo{
     text-align: center;
@@ -67,3 +68,8 @@ a:visited{
     text-decoration: none;
     color: white;
 }
+#paginas{
+    width: 15%;
+    margin: auto;
+}
+    
