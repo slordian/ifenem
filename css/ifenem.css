@@ -5,6 +5,13 @@ div#barra-cima{
     display: flex;
     align-items: center;
 }
+div#barra-baixo{
+    background-color: green;
+    border: 1px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
 div#titulo{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -71,5 +78,41 @@ a:visited{
 #paginas{
     width: 15%;
     margin: auto;
+}
+#exer{
+    display: flex;
+}
+.questao{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alternativa{
+    font-size: 14px;
+    line-height: 14px;
+}
+.info{
+    border-left: 1px solid white;
+    color: aliceblue;
+    margin-left: 40px;
+    padding-left: 20px;
+    line-height: 5px;
+}
+.sub-info{
+    margin-top: 0px;
+}
+#cent{
+    vertical-align: top;
+    display: flex;
+}
+summary{
+    font-size: smaller;
+    font-weight: bold;
+}
+.email{
+    font-size: small;
+}
+#sobre{
+    height: 2cm;
 }
     
