@@ -125,4 +125,25 @@ summary{
     margin-right: 20px;
     padding-right: 20px;
 }
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+.assunto-inicio{
+    display: block;
+    text-align: center;
+    margin-right: 40px;
+    color: aliceblue
+}
+.link-inicio{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+#cont-inicio{
+    background-color: rgb(102, 102, 102);
+    border-radius: 20px;
+    width: 900px;
+    margin: auto;
+}
     
